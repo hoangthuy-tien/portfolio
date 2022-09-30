@@ -2,37 +2,52 @@
 
 ul {
   margin: -8px;
-  padding-left: 1000px;
-  background-color: #333;
+  padding-left: 100px;
+  padding-right: inherit;
+  text-align: right;
+  font-size: 20px;
+  background-color: #0e1032;
+}
+.working {
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: #0e1032;
 }
 li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 15px;
 }
-a {
+li a {
   display: block;
   text-align: right;
-  padding: 14px 16px;
+  padding: 18px 20px;
   text-decoration: none;
   color: white;
 }
-a:hover:not(.active) {
+li a:hover:not(.active) {
   background-color: #111;
+  color: white;
 }
 .active {
   background-color: #04AA6D;
 }
 
-.homepage {
-  font-family: helvetica;
-  font-size:35px;
-  margin-bottom:.5em;
-  text-align:right;
-  float: right;
-  display: block;
+.container {
+  width: 70px;
+  height: 70px;
+  margin: -5px;
   position: absolute;
+  display: flex;
+  justify-content: space-between;
 }
 
+.homepageicon {
+  width: 50px;
+  height: 50px;
+  margin: -16px;
+  position: inherit;
+  align-items: center;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -41,34 +56,74 @@ a:hover:not(.active) {
 .ul {
   margin: 0;
   list-style-type: none;
-  padding-left: 1020px;
+  padding-left: 1000px;
   overflow: hidden;
   background-color: #333;
-}
-
-.container {
-  width: 100px;
-  height: 100px;
-  padding-left: 20px;
   position: absolute;
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav {
-  height: 35px;
 }
 
 .logo {
   margin-left: 100px;
 }
 
+.CV {
+  text-align: center;
+  font-size: 20px;
+  display: fixed;
+  position: relative;
+  width: 100%;
+  bottom: -10px;
+}
 .footer {
   text-align: center;
+  padding-top: 12px;
   color: #000000;
   font-size: 16px;
-  position: absolute;
+  position: relative;
   bottom: 10px;
-  width: 95%;
-  height: 2.5rem;
+  width: 100%;
+}
+
+.dropdown {
+  overflow: inherit;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #0e1032;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.content {
+  
 }
