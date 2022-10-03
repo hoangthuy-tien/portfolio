@@ -74,6 +74,7 @@ li a:hover:not(.active) {
   width: 100%;
   bottom: -10px;
 }
+
 .footer {
   text-align: center;
   padding-top: 12px;
@@ -119,11 +120,9 @@ li a:hover:not(.active) {
 
 .dropdown-content a:hover {
   background-color: #0e1032;
+  color: white;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-.content {
-  
 }

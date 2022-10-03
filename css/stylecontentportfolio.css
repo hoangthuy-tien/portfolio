@@ -43,9 +43,10 @@
   background: #eee;
 }
 
-#content_8 {
+#content_8:hover {
   background: #bbb;
-  width: 100%;
+  opacity: 0.5;
+  filter: alpha(opacity=100);
 }
 
 #content_7 {
