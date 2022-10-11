@@ -1,0 +1,36 @@
+#contentbackground {
+  background-color: #062035;
+  height: 600px;
+  width: 100%;
+  padding-left: 16px;
+  margin-left: -8px;
+}
+#content {
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+}
+.first {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+#contentname {
+  width: 100%;
+}
+#mockup {
+  flex: 1;
+}
+#content1 {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+h1 {
+  font-size: 60px;
+  color: white;
+}
+h2 {
+  color: #53CBFB;
+}
