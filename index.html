@@ -6,48 +6,69 @@
     <title> Homepage </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="Homepage/personal logo-white.png" rel="icon">
+    <link href="css/style.css" rel="stylesheet">
     <link href="css/stylehomepage.css" rel="stylesheet">
     <style>
     nav {
-      margin-left: 200px;
-      margin-right: 200px;
+      margin-left: 150px;
+      margin-right: 150px;
     }
     </style>
   </head>
 
   <body>
+    <section>
     <div class="working">
-    <nav>
-      <a href="index.html" style="padding: 0;">
-        <img class="container" src="Homepage/personal logo.png">
-      </a>
-      <ul>
-        <li><a href="index.html" style = "padding: 0;"><img class="homepageicon" src="Homepage/homepage.png"></a></li>
-        <li><a style="text-decoration: none" href="aboutme.html"> ABOUT ME </a></li>
-        <li><a style="text-decoration: none" href="portfolio.html"> PORTFOLIO </a></li>
-        <li><a style="text-decoration: none" href="contactme.html"> CONTACT ME </a></li>
-      </ul>
-      <h1> Hello,</h1>
-      <p class="p"><b> We are portfolio!</b></p>
-      <p class="CV"> My CV is downloaded here.</p>
-    </nav>
+      <nav>
+        <a href="index.html" style="padding: 0;">
+          <img class="container" src="Homepage/personal-logo.png">
+        </a>
+        <ul>
+          <li><a href="index.html" style = "padding: 0;"><img class="homepageicon" src="Homepage/homepage.png"></a></li>
+          <li><a style="text-decoration: none" href="aboutme.html"> ABOUT ME </a></li>
+          <div class="dropdown">
+            <button class="dropbtn">
+              <li><a style="text-decoration: none" href="portfolio.html"> PORTFOLIO</a></li>
+            </button>
+            <div class="dropdown-content">
+              <a href="WPIC.html" style="text-align: center; border-bottom: .5px solid #7E8C9C;"> Infographic & GIF </a>
+              <a href="IDP.html" style="text-align: center; border-bottom: .5px solid #7E8C9C;"> Publication & Handbook </a>
+              <a href="Grey.html" style="text-align: center; border-bottom: .5px solid #7E8C9C;"> Brochure & Salekit </a>
+              <a href="RMIT.html" style="text-align: center;"> Assignments </a>
+            </div>
+          </div>
+          <li><a style="text-decoration: none" href="contactme.html"> CONTACT ME </a></li>
+        </ul>
+      </nav>
+    </div>
+    </section>
+
+  <div id="contentbackground">
+    <div id="content">
+    <h1> Hello,</h1>
+    <p class="p"><b> We are portfolio!</b></p>
+    <p class="VC"> My CV is downloaded here.</p>
+    </div>
   </div>
+
   <div id="wrapper">
     <div class="first">
-      <div id="content_1">content_1</div>
+      <div id="content_1"><a href="aboutme.html"><img src="Homepage/aboutme/personal branding.png" style="height: 295px;"></a></div>
 
-      <div id="content_2"><a href="capital.html"><img src="Homepage/real-estate.jpg" style="width: 260px;"></a></div>
+      <div id="content_2"><a href="capital.html"><img src="Homepage/real-estate.jpg" style="height: 230px;"></a></div>
 
-      <div id="content_3">content_3</div>
+      <div id="content_3"><a href="IDP.html#PUB"><img src="Homepage/flyermockup.png" style="height: 230px;"></a></div>
     </div>
-    <div id="content_4"><a href="IDP.html"><img src="Homepage/standee.png" style="height:400px;"></a></div>
+    <div id="content_4"><a href="IDP.html#PUB"><img src="Homepage/standee.png" style="height: 535px;"></a></div>
   </div>
-    <div id="wrapper-1">
-      <div id="content_5">content_5</div>
+
+  <div id="wrapper-1">
     <div class="first">
-      <div id="content_8"><a href="IDP.html"><img src="Homepage/handbook.png" style="width:400px;"></a></div>
-      <div id="content_7">content_7</div>
-      <div id="content_6">content_6</div>
+      <div id="content_5"><a href="IDP.html#PUB"><img src="Homepage/handbook.png" style="width: 542px;"></a></div>
+      <div id="content_8"><a href="WPIC.html"><img src="Homepage/test03.png" style="width: 428px;"></a></div>
+      <div id="content_6"><a href="RMIT.html"><img src="Homepage/videosaigon.jpg" style="width: 975px;"></a></div>
+      <div id="content_7"><a href="RMIT.html"><img src="Homepage/rice.jpg" style="width: 485px;"></a></div>
+      <div id="content_2"><a href="IDP.html#PUB"><img src="Homepage/posterenter.png" style="width: 485px;"></a></div>
     </div>
   </div>
   </body>

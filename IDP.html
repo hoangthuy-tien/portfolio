@@ -2,23 +2,24 @@
 
 <html>
 
-  <head>
-    <title> Working at IDP </title>
+<head>
+    <title>Publication and Handbook</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="Homepage/personal logo-white.png" rel="icon">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/stylecontentidp.css" rel="stylesheet">
-    <script src="js/flipbook.js" defer></script>
+    <link href="css/idp.css" rel="stylesheet">
+    <script src="js/flipbookidp.js" defer></script>
     <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
     <style>
     nav {
-      margin-left: 120px;
-      margin-right: 120px;
+      margin-left: 150px;
+      margin-right: 150px;
     }
     </style>
-  </head>
+</head>
 
-  <body>
+<body style="background-color: #fefeff;">
+    <section>
 <!-- Navigation bar -->
 <div class="working">
     <nav>
@@ -26,22 +27,69 @@
         <img class="container" src="Homepage/personal logo.png">
       </a>
       <ul>
+        <li><a href="index.html" style = "padding: 0;"><img class="homepageicon" src="Homepage/homepage.png"></a></li>
         <li><a style="text-decoration: none" href="aboutme.html"> ABOUT ME </a></li>
-        <li><a class="active" style="text-decoration: none" href="portfolio.html"> PORTFOLIO </a></li>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <li><a class="active" style="text-decoration: none" href="portfolio.html"> PORTFOLIO</a></li>
+          </button>
+          <div class="dropdown-content">
+            <a href="WPIC.html" style="text-align: center; border-bottom: .5px solid #7E8C9C;"> Infographic & GIF </a>
+            <a href="IDP.html" style="text-align: center; border-bottom: .5px solid #7E8C9C;"> Publication & Handbook </a>
+            <a href="Grey.html" style="text-align: center; border-bottom: .5px solid #7E8C9C;"> Brochure & Salekit </a>
+            <a href="RMIT.html" style="text-align: center;"> Assignments </a>
+          </div>
+        </div>
         <li><a style="text-decoration: none" href="contactme.html"> CONTACT ME </a></li>
       </ul>
     </nav>
   </div>
+</section>
 
 <!-- Content -->
-<div id="content">
+<div id="contentbackground">
+  <div id="content">
     <div id="contentname">
-    <h1> Working at IDP Education </h1>
-    <p> I applied to work as an intern designer in IELTS Department before graduation. IDP offered me to continue as an official employer for Marketing Department of both IELTS and Study Abroad department.</p></div>
+    <h1 style="margin-top: 100px; color: white;"> Working at IDP Education </h1>
+    <p style="margin-top:-30px; color: white;"> I applied to work as an intern designer in IELTS Department for internship course in the university. My responsibilies in this workplace are <b> to design publications of IELTS events such as flyers, standees, carousel, and design ads on Facebook page </b> of IDP IELTS. IDP offered me to continue as an official employer for Marketing Department of both IELTS and Study Abroad department.</p>
+    </div>
+    <br id="PUB">
+  </div>
+  <div id="content">
+    <br>
+    <h2> Publications </h2>
+    <p style="margin-top:-15px;"> Printed materials are publications which I designed to run the advertising of IELTS Examinations in year. </p>
+<!-- Standee -->
+    <h3> Standee </h3>
+    <p> They are standees which I designed for the IELTS campaigns. They include IELTS Exam on computer, voucher, promotion when registration, or guideline for candidates. </p>
+    <div  class="first"><img src="Homepage/standee/standee01.png" style="width: 788px;">
+    <div id="mockup"><img src="Homepage/standee/standee02.png" style="width: 386px; padding-left: 12px;"></div>
+    </div>
 
+    <div id="wrapper">
+      <div class="first">
+        <div id="content_1"><img src="Homepage/standee/standee03.jpg" style="width: 386px;"></div>
+        <div id="content_2"><img src="Homepage/standee/standee04.jpg" style="width: 386px;"></div>
+        <div id="content_2"><img src="Homepage/standee/standee05.jpg" style="width: 386px;"></div>
+        <div id="content_2"><img src="Homepage/standee/standee06.jpg" style="width: 386px;"></div>
+        <div id="content_3"><img src="Homepage/standee/standee07.jpg" style="width: 386px;"></div>
+        <div id="content_3"><img src="Homepage/standee/standee08.jpg" style="width: 386px;"></div>
+        <div id="content_3"><img src="Homepage/standee/standee09.jpg" style="width: 386px;"></div>
+        <div id="content_3"><img src="Homepage/standee/standee10.jpg" style="width: 386px;"></div>
+        <div id="content_3"><img src="Homepage/standee/standee11.jpg" style="width: 386px;"></div>
+    </div>
+  </div>
+
+<!-- Flyer -->
+    <h3> Flyer </h3>
+
+    <br id="SAH">
+    <h2>Study Abroad Handbook</h2>
+    <p style="margin-top:-15px;"> This handbook provides the basic information for students who would like to study overseas in Canada, Australia, US, England, Ireland, and New Zealand.</p>
+    <div><p><em>(Here is the digital handbook. Please <b> click "Arrow"</b> to flip the below book)</em></p></div>
 <!-- Previous Button -->
-<main>
-<button id="prev-btn">
+<main style="margin-top: -30px;">
+  <button id="prev-btn">
       <i class="fas fa-arrow-circle-left"></i>
   </button>
 
@@ -418,11 +466,13 @@
       <i class="fas fa-arrow-circle-right"></i>
   </button>
 </main>
-</div>
-  </body>
-
-  <footer class="footer">
+  </div>
+  <footer class="footer" style=" padding-bottom: 10px;">
     <p> ©2022 by Hoang Thuy Tien </p>
   </footer>
+</div>
+</body>
+
+
 
 </html>
