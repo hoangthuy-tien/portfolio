@@ -8,98 +8,123 @@
     <link href="Homepage/personal logo-white.png" rel="icon">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/aboutme.css" rel="stylesheet">
-    <style>
-    nav {
-      margin-left: 150px;
-      margin-right: 150px;
-    }
-    </style>
   </head>
 
   <body>
-    <section>
-    <div class="working">
-    <nav>
-      <a href="index.html" style="padding: 0;">
-        <img class="container" src="Homepage/personal-logo.png">
-      </a>
-      <ul>
-        <li><a href="index.html" style = "padding: 0;"><img class="homepageicon" src="Homepage/homepage.png"></a></li>
-        <li><a class="active" style="text-decoration: none" href="aboutme.html"> ABOUT ME </a></li>
-        <div class="dropdown">
-          <button class="dropbtn">
-            <li><a style="text-decoration: none" href="portfolio.html"> PORTFOLIO</a></li>
-          </button>
-          <div class="dropdown-content">
-            <a href="WPIC.html" style="text-align: center; border-bottom: .5px solid #7E8C9C;"> Infographic & GIF </a>
-            <a href="IDP.html" style="text-align: center; border-bottom: .5px solid #7E8C9C;"> Publication & Handbook </a>
-            <a href="Grey.html" style="text-align: center; border-bottom: .5px solid #7E8C9C;"> Brochure & Salekit </a>
-            <a href="RMIT.html" style="text-align: center;"> Assignments </a>
+  <!-- Navigation bar -->
+    <div class="nav">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
+      <!-- Logo -->
+      <div class="nav-title">
+        <a href="index.html"><img class="logo" src="Homepage/personal logo.png"></a>
+      </div>
+    </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+        <div class="nav-links">
+          <!-- Navigation Menu -->
+        <ul>
+          <li><a href="index.html"> HOME </a></li>
+          <li><a href="aboutme.html"> ABOUT ME </a></li>
+
+          <div class="dropdown-menu">
+          <button class="menu-btn"><li><a href="portfolio.html"> PORTFOLIO</a></button>
+            <!-- Dropdown Menu -->
+            <div class="menu-content">
+              <a class="links-hidden" href="wpic.html"> Infographic & GIF </a>
+              <a class="links-hidden" href="idp.html"> Publication & Handbook </a>
+              <a class="links-hidden" href="grey.html"> Brochure & Salekit </a>
+              <a class="links-hidden" href="rmit.html"> Assignments </a>
+            </div>
+          </li>
+          </div>
+
+          <li><a href="contactme.html"> CONTACT ME </a></li>
+
+        </ul>
+    </div>
+    <script>
+      var navList = document.getElementById("nav-lists");
+      function Show() {
+      navList.classList.add("_Menus-show");
+    }
+      function Hide(){
+      navList.classList.remove("_Menus-show");
+    }
+    </script>
+
+
+  <!-- Welcome page -->
+      <div class="wrapper">
+        <div id="text">
+          <h1> Hi I'm Tien! </h1>
+        </div>
+        <div id="image">
+          <img src="Homepage/aboutme/personal branding.png" style=" width: 680px;">
+        </div>
+      </div>
+
+    <br>
+
+  <!-- Intro -->
+    <main>
+      <div id="content">
+        <p> I came to Vancouver two years ago as an international student. To me, Vancouver is a beautiful place to live and study because of the good standard of living. After graduation from the RMIT University in 2019, I had two-year working as a graphic designer in Vietnam. I always continue learning new things to develop and improve myself every day.</p>
+        <p> In my perspective, life is a journey and I do not know where the end point is. Therefore, I always attempt to be successful rather than wait.</p>
+
+        <h2> Personal Branding </h2>
+        <p> This is my personal logo including initial letters from my real name. The hardness and softness' letters also represent my personality.</p>
+      </div>
+    </main>
+
+  <!-- Contents -->
+    <div id="contents">
+        <h3> Color Scheme </h3>
+        <div id="image"><img src="Homepage/aboutme/color scheme.png"></div>
+
+        <h3> Font Family - 'Made Tommy Soft Outline' & 'Century Gothic'</h3>
+        <div id="image">
+          <p> There are two fonts in logo.</p>
+          <img src="Homepage/aboutme/font.png">
+        </div>
+
+        <div id="wrapper">
+          <div class="first">
+            <div id="image"><img src="Homepage/standee/standee01.png"></div>
+            <div id="image"><img src="Homepage/standee/standee02.png"></div>
           </div>
         </div>
-        <li><a style="text-decoration: none" href="contactme.html"> CONTACT ME </a></li>
-      </ul>
-    </nav>
-  </div>
-  </section>
 
-  <div id="contentbackground">
-    <div id="content">
-    <div class="first">
-      <div id="contentname">
-    <h1 style="margin-top: 160px; font-family: 'Trebuchet MS';"> Hi I'm Tien! </h1>
-    <p style="font-size: 30px; color: white; line-height: 40px;"> I am a graphic designer. I have a passionate with art design working.</p>
-    <p style="font-size: 30px; color: white;"> "Nothing is impossible."</p>
-      </div>
-    </div>
-      <div id="mockup" style="margin-top: 100px;"><img src="Homepage/aboutme/personal branding.png" style="width: 750px;">
-      </div>
-    </div>
-  </div>
-<br>
-      <main>
-      <div id="content1">
-    <p style="font-size: 16px; line-height: 30px;"> I came to Vancouver two years ago as an international student. To me, Vancouver is a beautiful place to live and study because of the good standard of living. After graduation from the RMIT University in 2019, I had two-year working as a graphic designer in Vietnam. I always continue learning new things to develop and improve myself every day.</p>
-    <p style="font-size: 16px; line-height: 30px;"> In my perspective, life is a journey and I do not know where the end point is. Therefore, I always attempt to be successful rather than wait.</p>
-    <h2> Personal Branding </h2>
-    <p style="font-size: 16px; line-height: 30px;"> This is my personal logo including initial letters from my real name. The hardness and softness' letters also represent my personality.</p>
-      </div>
-      </main>
-
-<div style="margin-left: 150px; margin-right: 150px;">
-        <h3> Color Scheme </h3>
-        <div id="mockup"><img src="Homepage/aboutme/color scheme.png" style="width: 500px; margin-top: -30px;">
-        </div>
-        <h3 style="margin-top: -10px;"> Font Family - 'Made Tommy Soft Outline' & 'Century Gothic'</h3>
-        <div id="mockup">
-          <p style="font-size: 16px; line-height: 30px;"> There are two fonts in logo.</p>
-          <img src="Homepage/aboutme/font.png" style="width: 800px;">
-        </div>
         <h3> Personal Logo </h3>
-      <div id="content" style= "color-background: white;">
-    <div id="mockup"><img src="Homepage/aboutme/logox.png" style="width: 800px; margin-left: -150px;">
+        <div>
+          <p><b> Exclusion Zone.</b> A clear space area ensures the visibility and prominence.</p>
+          <p><b> Minimum logo size.</b> Minimum size online (W: 60px) and Minimum size offline (W: 20mm)</p>
+          <p><b> Positive and Negative.</b> Positive monocromatic version and Negative monocromatic version.</p>
+        </div>
+        <div id="wrapper">
+            <div class="first">
+              <div id="image"><img src="Homepage/aboutme/logox.png"></div>
+              <div id="image"><img src="Homepage/aboutme/logosize.png"></div>
+            </div>
+              <div id="image"><img src="Homepage/aboutme/posandneg.png"></div>
+        </div>
+
+        <h3> Mock-up </h3>
+            <div id="image"><img src="Homepage/aboutme/logosticker.png"></div>
+            <br>
+            <div id="image"><img src="Homepage/aboutme/mockup.png"></div>
+            <br>
+            <div id="image"><img src="Homepage/aboutme/personal branding.png"></div>
     </div>
-    <div id="mockup"><img src="Homepage/aboutme/logosize.png" style="width: 330px;">
-    </div>
-      </div>
-      <div id="mockup">
-        <p style="font-size: 16px; line-height: 30px;"><b> Exclusion Zone.</b> A clear space area ensures the visibility and prominence.</p>
-        <p style="font-size: 16px; line-height: 30px;"><b> Minimum logo size.</b> Minimum size online (W: 60px) and Minimum size offline (W: 20mm)</p>
-        <p style="font-size: 16px; line-height: 30px;"><b> Positive and Negative.</b> Positive monocromatic version and Negative monocromatic version.</p>
-      </div>
-      <div id="mockup"><img src="Homepage/aboutme/posandneg.png" style="margin-top: -50px;">
-      </div>
-      <h3> Mock-up </h3>
-      <div id="mockup"><img src="Homepage/aboutme/logosticker.png" style="height: 800px;">
-      </div>
-      <br>
-      <div id="mockup"><img src="Homepage/aboutme/mockup.png" style="height: 800px;">
-      </div>
-      <br>
-      <div id="mockup"><img src="Homepage/aboutme/personal branding.png" style="width: 1200px;">
-      </div>
-</div>
-</body>
+
+  </body>
 
   <footer class="footer">
     <p> ©2022 by Hoang Thuy Tien </p>
