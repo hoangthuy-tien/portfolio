@@ -1,0 +1,43 @@
+#contentbackground {
+  background-color: #062035;
+  height: 460px;
+  width: 100%;
+  padding-left: 16px;
+  margin-left: -8px;
+}
+
+#content {
+  margin-left: 150px;
+  margin-right: 150px;
+  display: inline-block;
+}
+
+#contentname {
+  width: 55%;
+  text-align: justify;
+}
+
+.first {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+#mockup {
+  flex: 1;
+}
+
+h1 {
+  font-size: 55px;
+  text-align: left;
+
+}
+h2 {
+  font-size: 30px;
+  color: #53CBFB;
+}
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
