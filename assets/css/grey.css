@@ -1,0 +1,252 @@
+/*
+---------------------------------------------
+welcome
+---------------------------------------------
+*/
+.text_section {
+  margin-top: 50px;
+}
+.welcome_section {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/capital-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.welcome_section h2 {
+  font-size: 125px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/*
+---------------------------------------------
+text
+---------------------------------------------
+*/
+.layout_padding {
+  padding: 75px 0;
+}
+
+.layout_padding2 {
+  padding: 45px 0;
+}
+
+.layout_padding-top {
+  padding-top: 75px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 75px;
+}
+
+.container_fluid {
+  margin-top: 80px;
+}
+
+.custom_dark-btn, .custom_orange-btn {
+  display: inline-block;
+  padding: 10px 0;
+  text-align: center;
+  width: 400px;
+  outline: none;
+  color: #f7f7f7;
+  border: 1px solid transparent;
+}
+
+.custom_dark-btn {
+  background-color: #55C2C3;
+}
+
+.custom_dark-btn:hover {
+  color: #ffffff;
+  background-color: #0C243C;
+}
+
+.custom_heading {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.custom_heading-text {
+  text-align: center;
+}
+
+/*
+---------------------------------------------
+stationery
+---------------------------------------------
+*/
+#wrapper {
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+  gap: 5px;
+  padding-top: 10px;
+}
+
+.first {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+#content_1 {
+  flex: 1;
+}
+
+#content_2 {
+  flex: 1;
+}
+/*
+---------------------------------------------
+leaflet
+
+---------------------------------------------
+*/
+.row_2 {
+  margin-top: 20px;
+}
+.container-images {
+  margin-top: 50px;
+}
+.column-images {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px 0 15px;
+}
+
+.column-images img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.column-images_2 {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 15px 0 4px;
+}
+
+.column-images_2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/*
+---------------------------------------------
+stationery
+
+---------------------------------------------
+*/
+#stationery {
+  background-color: #fff;
+}
+
+#stationery .section-heading {
+  margin-bottom: 80px;
+}
+
+#stationery .chef-item .thumb {
+  position: relative;
+}
+
+#stationery .chef-item .thumb img {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#stationery .chef-item .thumb .overlay {
+  position: absolute;
+  background-color: #2a2a2a;
+  border-radius: 3px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+}
+
+#stationery .chef-item .thumb ul.social-icons {
+  position: absolute;
+  z-index: 11;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  transition: all .5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#stationery .chef-item .thumb ul.social-icons li {
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+#stationery .chef-item .thumb ul.social-icons li a {
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  transition: all .5s;
+}
+
+#stationery .chef-item .thumb ul.social-icons li a:hover {
+  color: #55C2C3;
+}
+
+#stationery .chef-item:hover ul.social-icons {
+  opacity: 1;
+  visibility: visible;
+}
+
+#stationery .chef-item {
+  padding: 20px 0px;
+}
+
+#stationery .chef-item .down-content h4 {
+  transition: all .3s;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+#stationery .chef-item .down-content span {
+  font-size: 14px;
+  color: #2a2a2a;
+}
+
+/* Create two equal columns that sits next to each other */
+.column-images {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px 0 15px;
+}
+
+.column-images img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.column-images_2 {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 15px 0 4px;
+}
+
+.column-images_2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
