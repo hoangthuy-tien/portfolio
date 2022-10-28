@@ -1,0 +1,18 @@
+.custom_dark-btn-resume, .custom_orange-btn {
+  display: inline-block;
+  padding: 10px 0;
+  text-align: center;
+  width: 300px;
+  outline: none;
+  color: #f7f7f7;
+  border: 1px solid transparent;
+}
+
+.custom_dark-btn-resume {
+  background-color: #55C2C3;
+}
+
+.custom_dark-btn-resume:hover {
+  color: #ffffff;
+  background-color: #0C243C;
+}
