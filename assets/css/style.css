@@ -23,6 +23,8 @@ font & reset css
 ---------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Eczar");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 /*
 ---------------------------------------------
 reset
@@ -74,7 +76,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
@@ -96,7 +98,7 @@ ul {
 }
 
 p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 25px;
   color: #2a2a2a;
 }
@@ -108,7 +110,7 @@ global styles
 */
 html,
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 ::selection {
@@ -663,7 +665,7 @@ banner
 }
 
 #top .left-content h4 {
-  font-family: 'Trebuchet MS', cursive;
+  font-family: 'Eczar', cursive;
   color: #fff;
   font-size: 56px;
   font-weight: 700;
@@ -893,7 +895,7 @@ menu
 
 #chefs {
   margin-top: 100px;
-  background-color: #E5F4F8;
+  background-color: #D8EAF8;
   padding: 120px 0px;
 }
 

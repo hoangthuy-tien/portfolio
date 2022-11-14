@@ -9,7 +9,7 @@ welcome
 .welcome_section {
   width: 100%;
   height: 500px;
-  background-image: url(../images/capital-image.png);
+  background-image: url(../images/idp.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
